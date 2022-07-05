@@ -1,0 +1,389 @@
+Welcome to Zicheng's Banking system
+
+
+    Account Id         Balance
+
+        12              234.34
+        13              234.00
+        14               22.30
+        15              234.34
+        16             4564.50
+        17            12312.23
+        18              234.34
+        19               23.00
+        20            23423.00
+        21              234.20
+        22                0.00
+        23               13.23
+        24             1231.00
+        25               23.34
+        26                0.00
+        27                0.00
+        28              123.00
+        29              123.23
+
+
+
+
+Invalid character: r 
+Please Try again
+
+
+
+Invalid character: y 
+Please Try again
+
+
+
+Invalid character: a 
+Please Try again
+
+
+
+Invalid character: c 
+Please Try again
+
+
+
+Transaction Type: Balance
+Account No.20
+Balance: $23423.00
+
+
+
+Transaction Failed: Balance
+Account No.222
+Error: Account not found
+
+
+
+Transaction Type: Balance
+Account No.17
+Balance: $12312.23
+
+
+
+Transaction Type: Balance
+Account No.14
+Balance: $22.30
+
+
+
+Transaction Type: Deposit
+Account No.14
+Current Balance: $22.30
+Amount to Deposit: $100.00
+New Balance: $122.30
+
+
+
+Transaction Failed: Deposit
+Account No.16
+Current Balance: $4564.50
+Amount to deposit: $ -1.00
+Error: Amount equal to or less than zero
+
+
+
+Transaction Failed: Deposit
+Account No.16
+Current Balance: $4564.50
+Amount to deposit: $ -20.00
+Error: Amount equal to or less than zero
+
+
+
+Transaction Type: Deposit
+Account No.16
+Current Balance: $4564.50
+Amount to Deposit: $200.20
+New Balance: $4764.70
+
+
+
+Transaction Failed: Deposit
+Account No.100
+Error: Account not found 
+
+
+
+Transaction Failed: Deposit
+Account No.1
+Error: Account not found 
+
+
+
+Transaction Type: Deposit
+Account No.18
+Current Balance: $234.34
+Amount to Deposit: $10000.00
+New Balance: $10234.34
+
+
+
+Transaction Failed: Deposit
+Account No.1118
+Error: Account not found 
+
+
+
+Transaction Type: Withdraw
+Account No.19
+Current Balance: $23.00
+Amount to withdraw: $1.03
+New Balance: $21.97
+
+
+
+Transaction Failed: Withdraw
+Account No.18
+Current Balance: $10234.34
+Amount to withdraw: $-1.20
+Error: Amount less than 0
+
+
+
+Transaction Failed: Withdraw
+Account No.15
+Current Balance: $234.34
+Amount to withdraw: $1000.11
+Error: Insufficient Funds Available
+
+
+
+Transaction Failed: Withdraw
+Account No.1234
+Error: Account not found
+
+
+
+Transaction Type: Withdraw
+Account No.20
+Current Balance: $23423.00
+Amount to withdraw: $13.4
+New Balance: $23409.60
+
+
+
+Transaction Type: Withdraw
+Account No.21
+Current Balance: $234.20
+Amount to withdraw: $100.0
+New Balance: $134.20
+
+
+
+Transaction Failed: Withdraw
+Account No.100
+Error: Account not found
+
+
+
+Transaction Failed: Withdraw
+Account No.20
+Current Balance: $23409.60
+Amount to withdraw: $-100.00
+Error: Amount less than 0
+
+
+
+Transaction: New Account
+Account No.23
+Error: Account already exists
+
+
+
+Transaction: New Account
+Account No.19
+Error: Account already exists
+
+
+
+Transaction: New Account
+Account No.12
+Error: Account already exists
+
+
+
+Transaction Type: New Account
+Account N0.100
+Current Balance: $0.00
+
+
+
+Transaction Type: New Account
+Account N0.30
+Current Balance: $0.00
+
+
+
+Transaction Type: New Account
+Account N0.33
+Current Balance: $0.00
+
+
+
+Transaction Type: New Account
+Account N0.1
+Current Balance: $0.00
+
+
+
+Transaction: New Account
+Account No.18
+Error: Account already exists
+
+
+
+Transaction Type: Deposit
+Account No.100
+Current Balance: $0.00
+Amount to Deposit: $100.00
+New Balance: $100.00
+
+
+
+Transaction Failed: Deposit
+Account No.100
+Current Balance: $100.00
+Amount to deposit: $ -1.00
+Error: Amount equal to or less than zero
+
+
+
+Transaction Type: Deposit
+Account No.30
+Current Balance: $0.00
+Amount to Deposit: $1.00
+New Balance: $1.00
+
+
+
+Transaction Failed: Deposit
+Account No.33
+Current Balance: $0.00
+Amount to deposit: $ -1.00
+Error: Amount equal to or less than zero
+
+
+
+Transaction Type: Withdraw
+Account No.12
+Current Balance: $234.34
+Amount to withdraw: $234.34
+New Balance: $0.00
+
+
+
+Transaction Failed: Withdraw
+Account No.100
+Current Balance: $100.00
+Amount to withdraw: $-1.00
+Error: Amount less than 0
+
+
+
+Transaction Type: Withdraw
+Account No.100
+Current Balance: $100.00
+Amount to withdraw: $80.56
+New Balance: $19.44
+
+
+
+Transaction Failed: Withdraw
+Account No.1
+Current Balance: $0.00
+Amount to withdraw: $100.00
+Error: Insufficient Funds Available
+
+
+
+Transaction Type: Delete Account
+Account No.26
+Current Balance: $0.00
+Account No.26 just deleted.
+
+
+
+Transaction Type: Delete Account
+Account No.12
+Current Balance: $0.00
+Account No.12 just deleted.
+
+
+
+Transaction Failed: Delete Account
+Account No.15
+Error: Available funds $234.34 in account, Withdraw all funds and try again
+
+
+
+Transaction Failed: Delete Account
+Account No.14
+Error: Available funds $122.30 in account, Withdraw all funds and try again
+
+
+
+Transaction Type: Withdraw
+Account No.14
+Current Balance: $122.30
+Amount to withdraw: $122.3
+New Balance: $0.00
+
+
+
+Transaction Type: Delete Account
+Account No.14
+Current Balance: $0.00
+Account No.14 just deleted.
+
+
+
+Transaction Failed: Delete Account
+Account No.13
+Error: Available funds $234.00 in account, Withdraw all funds and try again
+
+
+
+Transaction Type: Withdraw
+Account No.13
+Current Balance: $234.00
+Amount to withdraw: $234.0
+New Balance: $0.00
+
+
+
+Transaction Type: Delete Account
+Account No.13
+Current Balance: $0.00
+Account No.13 just deleted.
+
+
+
+You entered Q(exit), Quit banking system.
+
+Extra Credit 2 selected
+
+
+
+    Account Id         Balance
+
+        15              234.34
+        16             4764.70
+        17            12312.23
+        18            10234.34
+        19               21.97
+        20            23409.60
+        21              134.20
+        22                0.00
+        23               13.23
+        24             1231.00
+        25               23.34
+        27                0.00
+        28              123.00
+        29              123.23
+       100               19.44
+        30                1.00
+        33                0.00
+         1                0.00
